@@ -201,31 +201,6 @@
 
     <!-- CONTACT SECTION -->
     <section id="contact">
-      <!-- <div class="container">
-        <div class="row">
-
-          <div class="col-md-4 col-sm-4">
-            <div class="wow fadeInUp section-title" data-wow-delay="0.2s">
-              <h2>Drop a message</h2>
-              <p><strong>Have any projects? I'd love to collaborate.</strong></p>
-            </div>
-          </div>
-          <div class="col-md-offset-1 col-md-6 col-sm-6">
-            <p>
-              <a href="mailto:hello@rohankalgutkar.in" class="no-link-deco"><i class="fa fa-envelope"></i> hello@rohankalgutkar.in</a> &nbsp;
-              <i class="fa fa-phone-square"></i> 9619817506
-            </p>
-          </div>
-
-        </div>
-        <div class="row">
-          <div class="col-md-6 col-md-offset-3">
-            <p>&copy;
-              <?php echo date('Y')?> @daft_ro.
-              <!--VlexoFree_LinkBack.</p>
-          </div>
-        </div>
-      </div> -->
       <div class="container">
         <div class="row">
 
@@ -248,8 +223,8 @@
         <div class="row">
           <div class="col-md-12 text-middle">
             <p>&copy;
-              <?php echo date('Y')?> @daft_ro.
-              <!--VlexoFree_LinkBack.--></p>
+              <?php echo date('Y')?> @daft_ro. <br>
+              <!--VlexoFree_LinkBack-->.</p>
           </div>
         </div>
       </div>
@@ -264,7 +239,6 @@
     <script src="js/wow.min.js"></script>
     <script src="js/instafeed.min.js"></script>
     <script src="js/custom.js"></script>
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
     <script type="text/javascript">
       var userFeed = new Instafeed({
         get: 'user',
