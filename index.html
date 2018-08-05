@@ -1,9 +1,4 @@
-<?php
-  $from = new DateTime('1994-06-19');
-  $to   = new DateTime('today');
-  $age = $from->diff($to)->y;
-?>
-  <!DOCTYPE html>
+<!DOCTYPE html>
   <html lang="en">
 
   <head>
@@ -119,7 +114,7 @@
                 <p>Currently working as a developer at Vistaar Systems for Gerdau and GE.
                   <br> I love backend scripting and handle the technical side at thetstoryco.
                   <br> I'm
-                  <?php echo $age ?>. A self-proclaimed geek, rock a bread, and based in Mumbai.
+                  24. A self-proclaimed geek, rock a bread, and based in Mumbai.
                 </p>
               </div>
               <ul class="social-icon">
@@ -223,8 +218,7 @@
         <div class="row">
           <div class="col-md-12 text-middle">
             <p>&copy;
-              <?php echo date('Y')?> @daft_ro. <br>
-              <!--VlexoFree_LinkBack-->.</p>
+              2018 @daft_ro.</p>
           </div>
         </div>
       </div>
@@ -244,7 +238,7 @@
         get: 'user',
         userId: '494202955',
         accessToken: '494202955.fb0d2cb.89daf89f5e114a079dba5e8033e88463',
-        template: '<a href="{{link}}"><img src="{{image}}" class="img-responsive" alt="instagram image"/></a>',
+        template: '<a href="{{link}}"><img src="{{image}}" class="img-responsive" alt="instagram image" target="_blank"/></a>',
         limit: 6
       });
       userFeed.run();
